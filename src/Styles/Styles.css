@@ -38,7 +38,7 @@
 
 .services_section {
   padding: 5rem 0 5rem 0;
-  background-color: #010100;
+  background-color: #111111;
   color: #d8d8d8;
 }
 
@@ -69,7 +69,7 @@
 
 .about_section {
   padding: 5rem 0 5rem 0;
-  background-color: #010100;
+  background-color: #111111;
 }
 
 .about_section h2 {
@@ -94,7 +94,7 @@
 
 .questions_section {
   padding: 5rem 0 5rem 0;
-  background-color: #010100;
+  background-color: #111111;
 }
 
 .questions_section h2 {
@@ -102,14 +102,32 @@
 }
 
 .questions_section .accordion-button {
-  background-color: #010100;
+  background-color: #111111;
   color: #d8d8d8;
   text-decoration: none;
   border-radius: 5rem;
 }
 
 .footer_section {
-  background-color: #010100;
+  background-color: #111111;
+}
+
+.footer_section a {
+  color: #fd7f20;
+}
+
+.footer_section a :hover {
+  color: antiquewhite;
+}
+
+.footer_section a .bi-arrow-up-circle {
+  padding: 0 2rem 0 0;
+}
+
+.footer_section .copyright {
+  padding: 2rem 0 0 0;
+  font-size: 1.5rem;
+  font-family: "Bitter", serif;
 }
 
 * {
