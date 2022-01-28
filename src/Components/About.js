@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <section id="sellers" class="p-5 about_section">
+      <section id="about_us" class=" about_section">
         <div className="container">
           <h2 className="text-center text-white">Our Team</h2>
           <p className="lead text-center text-white mb-5">

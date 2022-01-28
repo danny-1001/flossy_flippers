@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <section class="p-5 contact-info">
+      <footer className="footer_section">
         <div class="container">
           <div class="row g-4">
             <div class="col-md">
@@ -25,9 +25,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <footer class="p-5 text-white text-center position-relative">
+        <section class="p-5 text-white text-center position-relative">
           <div class="container">
-            <p class="lead">Copyright &copy; 2021 Website Yo!</p>
+            <p class="lead">Copyright &copy; 2021</p>
             <a>
               <i className="bi bi-instagram"></i>
             </a>
@@ -35,8 +35,8 @@ function Footer() {
               <i className="bi bi-arrow-up-circle h1"></i>
             </a>
           </div>
-        </footer>
-      </section>
+        </section>
+      </footer>
     </div>
   );
 }

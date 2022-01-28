@@ -1,5 +1,9 @@
 .services_section {
+  padding: 5rem 0 5rem 0;
   background-color: $secondary;
+  .card_background {
+    background-color: $black;
+  }
   .services_btn {
     background-color: $primary;
   }

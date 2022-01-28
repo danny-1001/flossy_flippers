@@ -1,11 +1,18 @@
 .banner_section {
   padding: 10rem 0 5rem 0;
   background-color: $black;
+  h1 {
+    font-family: $header;
+  }
 
   .banner_text {
+    font-size: 1.5rem;
     color: $white;
+    font-family: $p_copy;
   }
   .banner_btn {
     background-color: $primary;
+    font-size: 1.5rem;
+    font-family: $header;
   }
 }
