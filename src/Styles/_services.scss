@@ -1,10 +1,25 @@
 .services_section {
   padding: 5rem 0 5rem 0;
-  background-color: $secondary;
+  background-color: $black;
+  color: $white;
+  h2 {
+    font-family: $header;
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-family: $header;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.3rem;
+    font-family: $p_copy;
+  }
   .card_background {
-    background-color: $black;
+    background-color: $white;
+    color: $black;
   }
   .services_btn {
     background-color: $primary;
+    font-family: $header;
   }
 }

@@ -4,34 +4,37 @@ function Footer() {
   return (
     <div>
       <footer className="footer_section">
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-md">
-              <h2 class="text-center mb-4">Contact info</h2>
-              <ul class="list-group list-group-flush lead">
-                <li class="list-group-item">
-                  <span class="fw-bold">Mainlocation:</span> Brooklyn
+        <div className="container">
+          <div className="row g-4">
+            <div className="col-md">
+              <h2 className="text-center mb-4">Contact info</h2>
+              <ul className="list-group list-group-flush lead">
+                <li className="list-group-item">
+                  <span className="fw-bold">Mainlocation:</span> Brooklyn
                 </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">Phone:</span> Brooklyn
+                <li className="list-group-item">
+                  <span className="fw-bold">Phone:</span> Brooklyn
                 </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">Email:</span> Brooklyn
+                <li className="list-group-item">
+                  <span className="fw-bold">Email:</span> Brooklyn
                 </li>
               </ul>
             </div>
-            <div class="col-md">
+            <div className="col-md">
               <div id="map"></div>
             </div>
           </div>
         </div>
-        <section class="p-5 text-white text-center position-relative">
-          <div class="container">
-            <p class="lead">Copyright &copy; 2021</p>
-            <a>
-              <i className="bi bi-instagram"></i>
+        <section className="p-5 text-white text-center position-relative">
+          <div className="container">
+            <p className="lead">Copyright &copy; 2021</p>
+            <a
+              href="https://www.instagram.com/flossy.flippers/"
+              target="_blank"
+            >
+              <i className="bi bi-instagram h1"></i>
             </a>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <a href="#" className="position-absolute bottom-0 end-0 p-5">
               <i className="bi bi-arrow-up-circle h1"></i>
             </a>
           </div>

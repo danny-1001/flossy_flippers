@@ -1,0 +1,20 @@
+.questions_section {
+  padding: 5rem 0 5rem 0;
+  background-color: $black;
+  h2 {
+    color: $white;
+  }
+
+  //   .accordion {
+  //     background-color: $black;
+  //   }
+  //   .accordion-item {
+  //     background-color: $black;
+  //   }
+  .accordion-button {
+    background-color: $black;
+    color: $white;
+    text-decoration: none;
+    border-radius: 5rem;
+  }
+}

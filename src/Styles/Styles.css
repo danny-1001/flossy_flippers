@@ -38,20 +38,74 @@
 
 .services_section {
   padding: 5rem 0 5rem 0;
-  background-color: #fdb750;
+  background-color: #010100;
+  color: #d8d8d8;
+}
+
+.services_section h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2.5rem;
+}
+
+.services_section h3 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2rem;
+}
+
+.services_section p {
+  font-size: 1.3rem;
+  font-family: "Bitter", serif;
 }
 
 .services_section .card_background {
-  background-color: #010100;
+  background-color: #d8d8d8;
+  color: #010100;
 }
 
 .services_section .services_btn {
   background-color: #fd7f20;
+  font-family: "Luckiest Guy", cursive;
 }
 
 .about_section {
   padding: 5rem 0 5rem 0;
   background-color: #010100;
+}
+
+.about_section h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2.5rem;
+}
+
+.about_section h3 {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.about_section p {
+  font-family: "Bitter", serif;
+  font-size: 1.3rem;
+}
+
+.about_section .about_card {
+  background-color: #d8d8d8;
+  color: #010100;
+}
+
+.questions_section {
+  padding: 5rem 0 5rem 0;
+  background-color: #010100;
+}
+
+.questions_section h2 {
+  color: #d8d8d8;
+}
+
+.questions_section .accordion-button {
+  background-color: #010100;
+  color: #d8d8d8;
+  text-decoration: none;
+  border-radius: 5rem;
 }
 
 .footer_section {

@@ -4,11 +4,11 @@ import { Accordion } from "react-bootstrap";
 function Questions() {
   return (
     <div>
-      <section id="questions" className="p-5">
+      <section id="questions" className="questions_section">
         <div className="container">
           <h2 className="text-center mb-4">Frequently Asked Questions</h2>
-          <Accordion defaultActiveKey="0" flush>
-            <Accordion.Item eventKey="0">
+          <Accordion defaultActiveKey="0" className="accordion" flush>
+            <Accordion.Item eventKey="0" className="accordion">
               <Accordion.Header>Accordion Item #1</Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

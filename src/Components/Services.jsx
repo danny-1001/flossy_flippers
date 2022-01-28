@@ -8,7 +8,7 @@ function Services() {
           <div className="row text-center g-4">
             <h2 className="text-center ">Services</h2>
             <div className="col-md">
-              <div className="card card_background text-light">
+              <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
                     <i className="bi bi-laptop"></i>
@@ -36,7 +36,7 @@ function Services() {
             </div>
 
             <div className="col-md">
-              <div className="card card_background text-light">
+              <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
                     <i className="bi bi-people"></i>
@@ -64,7 +64,7 @@ function Services() {
             </div>
 
             <div className="col-md">
-              <div className="card card_background text-light">
+              <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
                     <i className="bi bi-people"></i>

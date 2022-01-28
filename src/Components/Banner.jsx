@@ -9,8 +9,8 @@ function Banner() {
             <div>
               <h1>Shoes for everyone</h1>
               <p className=" my-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
-                ratione officiis exercitationem quis tempora, <br /> quo
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+                Veniam ratione officiis exercitationem quis tempora, <br /> quo
                 corporis dicta, <br /> animi et nisi fugiat pariatur dolore
                 modi, <br />
                 reprehenderit reiciendis. <br /> Iusto in dolore distinctio?
