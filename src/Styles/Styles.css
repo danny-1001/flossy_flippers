@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Luckiest+Guy&display=swap");
+.navbar {
+  background-color: #fd7f20;
+  color: #d8d8d8;
+}
+
+.navbar .nav_logo {
+  color: aqua;
+  font-size: 2rem;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Bitter", serif;
+}
+
+.banner_section {
+  padding: 10rem 0 5rem 0;
+  background-color: #010100;
+}
+
+.banner_section .banner_text {
+  color: #d8d8d8;
+}
+
+.banner_section .banner_btn {
+  background-color: #fd7f20;
+}
+
+.services_section {
+  background-color: #fdb750;
+}
+
+.services_section .services_btn {
+  background-color: #fd7f20;
+}
+
+.about_section {
+  background-color: #010100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+/*# sourceMappingURL=Styles.css.map */

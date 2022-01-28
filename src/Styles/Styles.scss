@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Luckiest+Guy&display=swap");
+@import "variables.scss";
+@import "nav.scss";
+@import "banner.scss";
+@import "services.scss";
+@import "about.scss";
+@import "questions.scss";
+@import "footer.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
