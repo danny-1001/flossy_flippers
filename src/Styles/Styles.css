@@ -100,69 +100,36 @@
 
 .questions_section h2 {
   color: #d8d8d8;
+  font-family: "Luckiest Guy", cursive;
 }
 
-.questions_section .accordion {
-  background-color: silver;
-  outline: 0 !important;
+.questions_section .accordion_card {
+  border: none;
 }
 
-.questions_section .accordion-body {
-  background-color: #cd4432;
-}
-
-.questions_section .accordion-item {
-  background-color: yellowgreen;
-}
-
-.questions_section .accordion-header {
-  background-color: pink;
-  outline: 0 !important;
-}
-
-.questions_section .accordion-header .accordion-button:active {
-  background-color: springgreen;
-  outline: 0 !important;
-}
-
-.questions_section .accordion-header .accordion-button :focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: rgba(0, 0, 0, 0.125);
+.questions_section .questions_button {
+  padding: 0 0 0 0.5rem;
   outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  width: 100%;
+  text-align: left;
+  font-family: "Luckiest Guy", cursive;
 }
 
-.questions_section .accordion-button {
+.questions_section .accordion_header {
   background-color: #111111;
+}
+
+.questions_section .accordion_body {
+  background-color: #111111;
+}
+
+.questions_section .accordion_text {
   color: #d8d8d8;
-  text-decoration: none;
-  border-radius: 5rem;
-  outline: 0 !important;
-}
-
-.questions_section .accordion-button .accordion-button-active-bg {
-  background-color: tomato;
-}
-
-.questions_section .accordion-button .accordion-button-active-color {
-  background-color: springgreen;
-}
-
-.questions_section .accordion-button .accordion-button:active {
-  background-color: springgreen;
-  outline: 0 !important;
-}
-
-.questions_section .accordion-button .accordion-button :focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: rgba(0, 0, 0, 0.125);
-  outline: none;
-}
-
-.questions_section .accordion-button .accordion-button:not(.collapsed) {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  font-family: "Bitter", serif;
+  font-size: 1.35rem;
 }
 
 .contact_info {

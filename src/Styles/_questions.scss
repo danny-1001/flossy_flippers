@@ -3,55 +3,30 @@
   background-color: $secondary;
   h2 {
     color: $white;
+    font-family: $header;
   }
-  .accordion {
-    background-color: silver;
-    outline: 0 !important;
+  .accordion_card {
+    border: none;
   }
-  .accordion-body {
-    background-color: rgb(205, 68, 50);
+  .questions_button {
+    padding: 0 0 0 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    width: 100%;
+    text-align: left;
+    font-family: $header;
   }
-  .accordion-item {
-    background-color: yellowgreen;
-  }
-  .accordion-header {
-    background-color: pink;
-
-    outline: 0 !important;
-    .accordion-button:active {
-      background-color: springgreen;
-      outline: 0 !important;
-    }
-    .accordion-button :focus {
-      box-shadow: none;
-      border-color: rgba(0, 0, 0, 0.125);
-      outline: none;
-    }
-  }
-  .accordion-button {
+  .accordion_header {
     background-color: $secondary;
+  }
+  .accordion_body {
+    background-color: $secondary;
+  }
+  .accordion_text {
     color: $white;
-    text-decoration: none;
-    border-radius: 5rem;
-    outline: 0 !important;
-
-    .accordion-button-active-bg {
-      background-color: tomato;
-    }
-    .accordion-button-active-color {
-      background-color: springgreen;
-    }
-    .accordion-button:active {
-      background-color: springgreen;
-      outline: 0 !important;
-    }
-    .accordion-button :focus {
-      box-shadow: none;
-      border-color: rgba(0, 0, 0, 0.125);
-      outline: none;
-    }
-    .accordion-button:not(.collapsed) {
-      box-shadow: none;
-    }
+    font-family: $p_copy;
+    font-size: 1.35rem;
   }
 }
