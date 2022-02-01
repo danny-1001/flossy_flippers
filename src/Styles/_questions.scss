@@ -4,20 +4,54 @@
   h2 {
     color: $white;
   }
-  .accordion_body {
+  .accordion {
+    background-color: silver;
+    outline: 0 !important;
+  }
+  .accordion-body {
+    background-color: rgb(205, 68, 50);
+  }
+  .accordion-item {
     background-color: yellowgreen;
   }
+  .accordion-header {
+    background-color: pink;
 
-  //   .accordion {
-  //     background-color: $black;
-  //   }
-  //   .accordion-item {
-  //     background-color: $black;
-  //   }
+    outline: 0 !important;
+    .accordion-button:active {
+      background-color: springgreen;
+      outline: 0 !important;
+    }
+    .accordion-button :focus {
+      box-shadow: none;
+      border-color: rgba(0, 0, 0, 0.125);
+      outline: none;
+    }
+  }
   .accordion-button {
     background-color: $secondary;
     color: $white;
     text-decoration: none;
     border-radius: 5rem;
+    outline: 0 !important;
+
+    .accordion-button-active-bg {
+      background-color: tomato;
+    }
+    .accordion-button-active-color {
+      background-color: springgreen;
+    }
+    .accordion-button:active {
+      background-color: springgreen;
+      outline: 0 !important;
+    }
+    .accordion-button :focus {
+      box-shadow: none;
+      border-color: rgba(0, 0, 0, 0.125);
+      outline: none;
+    }
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+    }
   }
 }

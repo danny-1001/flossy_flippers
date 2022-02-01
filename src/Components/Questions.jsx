@@ -1,65 +1,42 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
+import { Accordion, useAccordionButton, Card } from "react-bootstrap";
+
+function CustomToggle({ children, eventKey }) {
+  const decoratedOnClick = useAccordionButton(eventKey, () =>
+    console.log("totally custom!")
+  );
+
+  return (
+    <button
+      type="button"
+      style={{ backgroundColor: "pink" }}
+      onClick={decoratedOnClick}
+    >
+      {children}
+    </button>
+  );
+}
 
 function Questions() {
   return (
-    <div>
-      <section id="questions" className="questions_section">
-        <div className="container">
-          <h2 className="text-center mb-4">Frequently Asked Questions</h2>
-          <Accordion defaultActiveKey="0" className="accordion" flush>
-            <Accordion.Item eventKey="0" className="accordion">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body className="accordion_body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>Accordion Item #3</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>Accordion Item #4</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </div>
-      </section>
-    </div>
+    <Accordion defaultActiveKey="0">
+      <Card>
+        <Card.Header>
+          <CustomToggle eventKey="0">Click me!</CustomToggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="0">
+          <Card.Body>Hello! I'm the body</Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card>
+        <Card.Header>
+          <CustomToggle eventKey="1">Click me!</CustomToggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="1">
+          <Card.Body>Hello! I'm another body</Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    </Accordion>
   );
 }
 
