@@ -1,4 +1,5 @@
 import React from "react";
+import Shoe from "./Images/orange_shoe.png";
 
 function Banner() {
   return (
@@ -9,11 +10,10 @@ function Banner() {
             <div>
               <h1>Shoes for everyone</h1>
               <p className=" my-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
-                Veniam ratione officiis exercitationem quis tempora, <br /> quo
-                corporis dicta, <br /> animi et nisi fugiat pariatur dolore
-                modi, <br />
-                reprehenderit reiciendis. <br /> Iusto in dolore distinctio?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                ratione officiis exercitationem quis tempora, quo corporis
+                dicta, <br /> animi et nisi fugiat pariatur dolore modi,
+                reprehenderit reiciendis. Iusto in dolore distinctio?
               </p>
               <a
                 href="https://www.instagram.com/flossy.flippers/"
@@ -23,9 +23,9 @@ function Banner() {
               </a>
             </div>
             <img
-              className="img-fluid w-25 d-none d-sm-block"
-              src="/images/eye.png"
-              alt=""
+              src={Shoe}
+              alt="Logo"
+              className="img-fluid w-50 d-none d-md-block"
             />
           </div>
         </div>
