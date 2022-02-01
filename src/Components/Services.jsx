@@ -15,13 +15,15 @@ function Services() {
                   </div>
                   <h3 className="card-title mb-3">Shoes</h3>
                   <p className="card-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Quidem itaque molestiae beatae officiis repellendus eos
-                    consequatur voluptatem non delectus reiciendis est, minus
-                    animi ipsam possimus corrupti pariatur impedit laudantium
-                    error culpa nobis consectetur sint quis atque a? Tempore
-                    consequatur perspiciatis quam obcaecati corporis cum optio
-                    officia, dicta unde, voluptates nisi!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Pariatur, cumque repellat. Excepturi esse dignissimos
+                    quisquam aliquam id accusantium sapiente illum veritatis
+                    laboriosam consectetur, accusamus numquam maxime, quis
+                    necessitatibus odio? Excepturi, beatae repellendus qui sed
+                    nemo tempora placeat quo, pariatur doloremque necessitatibus
+                    culpa laboriosam libero doloribus dolorum praesentium
+                    distinctio id ipsum non voluptas, voluptates impedit
+                    adipisci corrupti atque. Ipsum, provident ullam!
                   </p>
                   <a
                     href="https://www.instagram.com/flossy.flippers/"
@@ -43,13 +45,15 @@ function Services() {
                   </div>
                   <h3 className="card-title mb-3">Streetwear</h3>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Impedit culpa, aliquid, fugiat blanditiis tempora esse
-                    suscipit nesciunt iusto voluptatum dolorem ullam temporibus
-                    ipsam itaque unde saepe necessitatibus quidem in assumenda
-                    id nihil ea dignissimos qui repellat? Eligendi at quis
-                    repellat repellendus ipsum, beatae unde enim omnis, nulla
-                    laudantium, doloribus nostrum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Pariatur, cumque repellat. Excepturi esse dignissimos
+                    quisquam aliquam id accusantium sapiente illum veritatis
+                    laboriosam consectetur, accusamus numquam maxime, quis
+                    necessitatibus odio? Excepturi, beatae repellendus qui sed
+                    nemo tempora placeat quo, pariatur doloremque necessitatibus
+                    culpa laboriosam libero doloribus dolorum praesentium
+                    distinctio id ipsum non voluptas, voluptates impedit
+                    adipisci corrupti atque. Ipsum, provident ullam!
                   </p>
                   <a
                     href="https://www.instagram.com/flossy.flippers/"
@@ -71,13 +75,15 @@ function Services() {
                   </div>
                   <h3 className="card-title mb-3">Shipping</h3>
                   <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Illo incidunt at, architecto officiis explicabo tempora amet
-                    debitis, sapiente unde nostrum a ducimus optio laboriosam
-                    quo blanditiis possimus aspernatur dignissimos itaque
-                    exercitationem. Ullam laboriosam, rerum adipisci, asperiores
-                    esse error at a magnam doloremque quas blanditiis.
-                    Accusantium, velit consequuntur!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Pariatur, cumque repellat. Excepturi esse dignissimos
+                    quisquam aliquam id accusantium sapiente illum veritatis
+                    laboriosam consectetur, accusamus numquam maxime, quis
+                    necessitatibus odio? Excepturi, beatae repellendus qui sed
+                    nemo tempora placeat quo, pariatur doloremque necessitatibus
+                    culpa laboriosam libero doloribus dolorum praesentium
+                    distinctio id ipsum non voluptas, voluptates impedit
+                    adipisci corrupti atque. Ipsum, provident ullam!
                   </p>
                   <a
                     href="https://www.instagram.com/flossy.flippers/"

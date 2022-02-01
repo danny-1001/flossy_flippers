@@ -22,17 +22,18 @@
 
 .banner_section h1 {
   font-family: "Luckiest Guy", cursive;
+  font-size: 4rem;
 }
 
 .banner_section .banner_text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #d8d8d8;
   font-family: "Bitter", serif;
 }
 
 .banner_section .banner_btn {
   background-color: #fd7f20;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Luckiest Guy", cursive;
 }
 

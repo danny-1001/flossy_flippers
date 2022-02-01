@@ -15,7 +15,7 @@ function About() {
               <div className="card about_card">
                 <div className="card-body text-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/11.jpg"
+                    src="https://randomuser.me/api/portraits/men/12.jpg"
                     className="rounded-circle mb-3"
                     alt=""
                   />
@@ -42,10 +42,11 @@ function About() {
                   <h3 className="card-title mb-3">John</h3>
                   <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit impedit totam adipisci laudantium voluptate similique
-                    dignissimos, excepturi sed, atque, ipsa libero veritatis
-                    neque corporis? Ex dolores sunt excepturi modi blanditiis?
-                    Itaque, quos. Ipsam exercitationem eveniet necessitatibus
+                    Ratione numquam provident assumenda eum similique error
+                    voluptates distinctio veniam iure explicabo laudantium, fuga
+                    at neque quas dolores voluptatum! Nisi mollitia minus
+                    quisquam omnis! Facilis, error officiis obcaecati explicabo
+                    eligendi dolor perspiciatis!
                   </p>
                 </div>
               </div>
