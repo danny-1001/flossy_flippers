@@ -6,16 +6,14 @@
     font-family: $header;
     color: $black;
   }
-
   .nav-link {
-    color: $black;
     font-size: 1.5rem;
     font-family: $p_copy;
-    .nav-link:focus {
-      color: blueviolet;
-    }
-    :hover {
-      color: white;
-    }
+    color: $black;
+  }
+  .nav-link:focus,
+  .nav-link:hover {
+    color: $white;
+    text-decoration: underline;
   }
 }

@@ -25,7 +25,7 @@ function Banner() {
             <img
               src={Shoe}
               alt="Logo"
-              className="img-fluid w-50 d-none d-md-block"
+              className="img-fluid w-50 d-none d-sm-block"
             />
           </div>
         </div>

@@ -6,9 +6,9 @@ function Footer() {
       <footer className="footer_section">
         <section className="p-5 text-white text-center position-relative">
           <div className="container">
-            <a href="#" target="_blank">
+            {/* <a href="#" target="_blank">
               <i className="bi bi-facebook h1"></i>
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/flossy.flippers/"
               target="_blank"
