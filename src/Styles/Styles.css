@@ -9,14 +9,14 @@
   color: #010100;
 }
 
-.navbar .nav-link {
+.navbar .nav_link {
   font-size: 1.5rem;
   font-family: "Bitter", serif;
   color: #010100;
 }
 
-.navbar .nav-link:focus,
-.navbar .nav-link:hover {
+.navbar .nav_link:focus,
+.navbar .nav_link:hover {
   color: #d8d8d8;
   text-decoration: underline;
 }
@@ -76,6 +76,7 @@
 .services_section .services_btn {
   background-color: #fd7f20;
   font-family: "Luckiest Guy", cursive;
+  font-size: 1.8rem;
 }
 
 .about_section {
