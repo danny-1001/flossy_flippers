@@ -18,6 +18,8 @@ function Banner() {
               <a
                 href="https://www.instagram.com/flossy.flippers/"
                 class="btn banner_btn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Shop Now
               </a>
