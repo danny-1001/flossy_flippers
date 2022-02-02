@@ -23,7 +23,7 @@ const Nav = () => {
               <li className="nav-item">
                 <a
                   href="https://www.instagram.com/flossy.flippers/"
-                  className="nav_link"
+                  className="nav-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -31,17 +31,17 @@ const Nav = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#services" className="nav_link">
+                <a href="#services" className="nav-link">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#about_us" className="nav_link">
+                <a href="#about_us" className="nav-link">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#questions" className="nav_link">
+                <a href="#questions" className="nav-link">
                   Questions
                 </a>
               </li>
