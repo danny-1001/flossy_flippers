@@ -12,6 +12,7 @@ function Footer() {
             <a
               href="https://www.instagram.com/flossy.flippers/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="bi bi-instagram h1"></i>
             </a>

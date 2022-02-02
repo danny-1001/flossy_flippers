@@ -5,14 +5,22 @@
 }
 
 .navbar .nav_logo {
-  color: aqua;
   font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.navbar .navbar-light .navbar-brand {
+  color: #010100;
 }
 
 .navbar .nav-link {
   color: black;
   font-size: 1.5rem;
   font-family: "Bitter", serif;
+}
+
+.navbar .nav-link :hover {
+  background-color: black;
 }
 
 .banner_section {

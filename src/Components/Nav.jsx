@@ -1,12 +1,13 @@
 import React from "react";
+import "bootstrap/js/src/collapse.js";
 
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+      <nav className="navbar navbar-expand-md py-3 fixed-top">
         <div className="container">
           <a href="#" className="navbar-brand nav_logo">
-            Flossy Flippers
+            Shoe Store Logo
           </a>
 
           <button
@@ -24,17 +25,19 @@ const Nav = () => {
                 <a
                   href="https://www.instagram.com/flossy.flippers/"
                   className="nav-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Shop
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#streetwear" className="nav-link">
+                <a href="#services" className="nav-link">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#sellers" className="nav-link">
+                <a href="#about_us" className="nav-link">
                   About Us
                 </a>
               </li>
@@ -52,19 +55,3 @@ const Nav = () => {
 };
 
 export default Nav;
-{
-  /* <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Flossy</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Shop</Nav.Link>
-            <Nav.Link href="#link">Services</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Questions</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar> */
-}
