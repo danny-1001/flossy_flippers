@@ -7,7 +7,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-md py-3 fixed-top">
         <div className="container">
           <a href="#banner" className="navbar-brand nav_logo">
-            Shoe Store Logo
+            Flossy Flippers Logo
           </a>
           <button
             className="navbar-toggler navbar-light"
