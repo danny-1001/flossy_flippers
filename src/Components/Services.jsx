@@ -1,4 +1,7 @@
 import React from "react";
+import ShoeIcon from "./Icons/shoe_icon.svg";
+import ShirtIcon from "./Icons/shirt_icon.svg";
+import ShippingIcon from "./Icons/shipping_icon.svg";
 
 function Services() {
   return (
@@ -11,7 +14,7 @@ function Services() {
               <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
-                    <i className="bi bi-laptop"></i>
+                    <img src={ShoeIcon} alt="Icon of a shoe" className="icon" />
                   </div>
                   <h3 className="card-title mb-3">Shoes</h3>
                   <p className="card-text">
@@ -41,7 +44,11 @@ function Services() {
               <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
-                    <i className="bi bi-people"></i>
+                    <img
+                      src={ShirtIcon}
+                      alt="Icon of a shirt"
+                      className="icon"
+                    />
                   </div>
                   <h3 className="card-title mb-3">Streetwear</h3>
                   <p className="card-text">
@@ -71,7 +78,11 @@ function Services() {
               <div className="card card_background ">
                 <div className="card-body text-center">
                   <div className="h1 mb-3">
-                    <i className="bi bi-people"></i>
+                    <img
+                      src={ShippingIcon}
+                      alt="Icon of a sealed box hovering over a hand"
+                      className="icon"
+                    />
                   </div>
                   <h3 className="card-title mb-3">Shipping</h3>
                   <p className="card-text">

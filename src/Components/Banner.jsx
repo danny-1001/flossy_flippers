@@ -4,7 +4,7 @@ import Shoe from "./Images/orange_shoe.png";
 function Banner() {
   return (
     <div>
-      <section className="banner_section text-center text-sm-start">
+      <section id="banner" className="banner_section text-center text-sm-start">
         <div className="container">
           <div className="d-sm-flex align-items-center justify-content-between banner_text">
             <div>
