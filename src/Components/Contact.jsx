@@ -10,7 +10,7 @@ function Contact() {
               <h2 className="text-center mb-4">Contact info</h2>
               <ul className="text-center list-group list-group-flush lead contact_list">
                 <li className="list-group-item contact_list_item">
-                  <span className="fw-bold">Mainlocation:</span> Brooklyn
+                  <span className="fw-bold">Mainlocation:</span> Brooklyn, New York
                 </li>
                 <li className="list-group-item contact_list_item">
                   <span className="fw-bold">Phone:</span> 718.718.7187
