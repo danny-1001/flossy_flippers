@@ -34,7 +34,7 @@ function Services() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Read More
+                    Learn More
                   </a>
                 </div>
               </div>
@@ -68,7 +68,7 @@ function Services() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Read More
+                    Learn More
                   </a>
                 </div>
               </div>
@@ -102,7 +102,7 @@ function Services() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Read More
+                    Learn More
                   </a>
                 </div>
               </div>
