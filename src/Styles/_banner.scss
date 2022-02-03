@@ -4,6 +4,7 @@
   h1 {
     font-family: $header;
     font-size: 4rem;
+    letter-spacing: 0.155rem;
   }
 
   .banner_text {
@@ -15,5 +16,7 @@
     background-color: $primary;
     font-size: 2rem;
     font-family: $header;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 0 0.5rem 0.1rem rgb(85, 85, 85);
   }
 }
