@@ -177,6 +177,12 @@
   letter-spacing: 0.15rem;
 }
 
+.contact_info p {
+  color: #d8d8d8;
+  font-size: 1.5rem;
+  font-family: "Bitter", serif;
+}
+
 .contact_info .contact_list_item {
   background-color: #111111;
   color: #d8d8d8;

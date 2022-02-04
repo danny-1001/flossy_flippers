@@ -52,9 +52,12 @@ function Contact() {
             <div className="col-md">
               <div id="map">
                 <div>
-                  <div className="sidebar">
-                    Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-                  </div>
+                  <h2>Area of Operation</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Architecto, obcaecati?
+                  </p>
+                  <div className="sidebar"></div>
                   <div ref={mapContainer} className="map-container" />
                 </div>
               </div>
