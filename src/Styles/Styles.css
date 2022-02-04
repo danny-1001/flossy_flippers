@@ -29,6 +29,12 @@
   text-decoration: underline;
 }
 
+@media (max-width: 767.98px) {
+  .nav-link {
+    width: 20%;
+  }
+}
+
 .banner_section {
   padding: 10rem 0 5rem 0;
   background-color: #010100;

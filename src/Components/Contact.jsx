@@ -10,7 +10,7 @@ function Contact() {
   const [zoom, setZoom] = useState(9);
 
   useEffect(() => {
-    if (map.current) return; // initialize map only once
+    if (map.current) return;
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v11",
@@ -20,7 +20,7 @@ function Contact() {
   });
 
   useEffect(() => {
-    if (!map.current) return; // wait for map to initialize
+    if (!map.current) return;
     map.current.on("move", () => {
       setLng(map.current.getCenter().lng.toFixed(4));
       setLat(map.current.getCenter().lat.toFixed(4));
