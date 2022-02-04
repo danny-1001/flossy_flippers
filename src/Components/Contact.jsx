@@ -36,7 +36,7 @@ function Contact() {
           <div className="row g-4">
             <div className="col-md">
               <h2 className="text-center mb-4">Contact info</h2>
-              <ul className="text-center list-group list-group-flush lead contact_list">
+              <ul className="text-left list-group list-group-flush lead contact_list">
                 <li className="list-group-item contact_list_item">
                   <span className="fw-bold">Mainlocation:</span> Brooklyn, New
                   York
